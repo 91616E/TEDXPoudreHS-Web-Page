@@ -1,0 +1,48 @@
+
+body{
+    
+}
+
+nav{
+    background-color: #ffffff !important; 
+    font-size: 1.2rem !important;
+}
+
+li{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+#tedInfo{
+    padding: 3rem;
+    border-radius: 5px;
+}
+
+#navLogo{
+    width: 21%;
+    height: 21%;
+    padding: 10px;
+}
+
+#empowerLogo{
+    display: block;
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+}
+
+.checkBackLater{
+    display: flex;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#checkBackText{
+    border: double 5px #5e5a5a;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
