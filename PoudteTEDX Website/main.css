@@ -1,17 +1,16 @@
 
-body{
-    
-}
-
-nav{
+nav{ /* Navigation font size, color */
     background-color: #ffffff !important; 
-    font-size: 1.2rem !important;
+    font-size: 14px !important;
 }
 
-li{
-    padding-right: 5px;
-    padding-left: 5px;
-    margin-top: 10px;
+li{ /* Navigation Links Padding */
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+footer{
+    background-color: #FFF !important;
 }
 
 #tedInfo{
@@ -19,17 +18,44 @@ li{
     border-radius: 5px;
 }
 
-#navLogo{
-    width: 21%;
-    height: 21%;
-    padding: 10px;
+#tedxLogo{ /* Website Logo */
+    width: 17%;
+    height: 17%;
+    padding: 5px;
 }
 
-#empowerLogo{
-    display: block;
-    width: 20%;
-    height: 20%;
-    padding: 10px;
+#empowerLogo{ /* Website Logo */
+    width: 14%;
+    height: 14%;
+    padding: 5px;
+}
+
+@media (max-width: 600px){
+    #tedxLogo{
+        width: 50%;
+        height: 50%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 600px){
+    #empowerLogo{
+        width: 40%;
+        height: 40%;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 600px){
+    .desktopLogo{
+        display: none;
+    }
+}
+
+@media (min-width: 600px){
+    .mobileLogo{
+        display: none;
+    }
 }
 
 .checkBackLater{
